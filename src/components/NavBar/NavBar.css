@@ -1,0 +1,53 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1E201E;
+}
+.contenedorNavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0px 100px;
+}
+.contenedorNavBar h1 a{
+    color: #0b86eb;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.NavBar{
+    min-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.NavBar li{
+    list-style: none;
+}
+.NavBar a{
+    text-decoration: none;
+    color: #1E201E;
+    font-weight: bold;
+    padding: 20px;
+}
+.NavBar a:hover{
+    background-color: #0b86eb;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.contenedorCarrito{
+    display: flex; 
+    align-items: center;   
+    width: 50px;
+}
+.carrito{
+    width: 60px;
+}
+.contenedorCarrito p{
+    font-weight: bold;
+}
+.mensajeProps{
+    text-align: center;
+    font-size: 35px;
+}

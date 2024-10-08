@@ -1,0 +1,24 @@
+
+.contenedor{
+
+    text-align: center;
+}
+
+.contenedorButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Button{
+    background-color: #295F98;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}

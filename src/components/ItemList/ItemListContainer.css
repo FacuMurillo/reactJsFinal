@@ -1,0 +1,50 @@
+h2{
+    text-align: center;
+    margin: 60px;
+    color: #000000;
+
+}
+
+.listaProductos{
+    list-style: none;
+}
+
+.listaProductos a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.listaProductos a:hover{
+    font-weight: bold;
+}
+
+.catalogo{
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.catalogo ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 300px;
+    border-radius: 40px 14px 40px 14px;
+    margin: 50px;
+    background-color: #c5a908fd;
+    color: #000000;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.imgList{
+    width: 200px;
+}
