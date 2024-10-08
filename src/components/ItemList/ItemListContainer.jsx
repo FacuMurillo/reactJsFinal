@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { useParams ,Link } from "react-router-dom";
 import { productosPorCategoria , productos} from  "../api";
-import ItemList from "./ItemList";
 import "./ItemListContainer.css"
 // import {collection, getDocs, getFirestore} from 'firebase/firestore';
 
